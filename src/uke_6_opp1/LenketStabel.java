@@ -12,7 +12,6 @@ public class LenketStabel<T> implements StabelADT<T> {
         }
     }
     private Node<T> topp;
-    private int antall;
 
     public LenketStabel() {
         topp = null;
